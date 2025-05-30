@@ -2,6 +2,8 @@
 
 In this homework, we're going to download finance data from various sources and make simple calculations or analysis.
 
+### **📒 [Solution here](./Homework_01.ipynb)**
+
 ---
 ### Question 1: [Index] S&P 500 Stocks Added to the Index
 
@@ -101,7 +103,7 @@ Context: Earnings announcements, especially when they exceed analyst expectation
 
 Reference: Yahoo Finance earnings calendar - https://finance.yahoo.com/calendar/earnings?symbol=AMZN
 
-*Additional*: Is there a correlation between the magnitude of the earnings surprise and the stock price reaction? Does the market react differently to earnings surprises during bull vs. bear markets?)
+*Additional*: Is there a correlation between the magnitude of the earnings surprise and the stock price reaction? Does the market react differently to earnings surprises during bull vs. bear markets?
 
 ---
 ### Question 5.  [Exploratory, optional] Brainstorm potential idea for your capstone project
