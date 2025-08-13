@@ -83,8 +83,6 @@ Streamlining Processes from Prediction to Action:
 * Learn to generate predictions and execute trades systematically.
 * [Maybe - Advanced] Implement automated email notifications containing predictions, trade details, and updates on profit/loss for the designated period.
 
-📄[**Homework 5**](Homework_05/)
-
 
 ### Project
 
