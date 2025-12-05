@@ -2,13 +2,12 @@
 
 In this homework, you are required to understand how the system works as a whole, adjust the code accordingly, and interpret the results correctly. The task involves modifying a few lines of code and run the whole notebook to check the results.
 
-### **📒 [Solution here](./Homework_04.ipynb)**
-
 ---
 ### Question 1: Less Features is More 
 
 **Find the CAGR for the pred9_clf_second_best_rule_92	using the new setup (with fewer dummy variables).**
 
+### **📒 [Solution here](./Q1_Homework_04.ipynb)**
 
 **The idea**: Reducing the number of features can help models perform better. As seen in the lecture, some models (e.g., Logistic Regression, Deep Neural Networks) may underperform due to too many features—especially the numerous dummy variables from exercises and individual stock tickers.
 
@@ -17,12 +16,17 @@ Remove `ticker` and `month_wom` from the `CATEGORICAL` list *just* before you ge
 
 2) **Run the entire notebook.** 
 At the end of the notebook (after the bubble chart), check the CAGR for `pred9_clf_second_best_rule_92` (the best predictor so far). Expected result: The new CAGR should be *slightly higher* than the original one, which was 1.155577.
- 
+
+```bash
+1.1594
+```
+
 ---
 ### Question 2: Best CAGR for Random Forest Decision Rule
 
 **What is the probability threshold for the best Random Forest decision rule?**
 
+### **📒 [Solution here](./Q2_Homework_04.ipynb)**
 
 #### **The Idea**
 
@@ -95,11 +99,16 @@ However, now you're optimizing not just for ML performance (like precision), but
    - Extract the threshold value from the predictor name.
    - ✅ *It’s great to see that we can achieve strong returns with 3x less trading effort (e.g., 5 trades/day vs. 14–15).*
 
+```bash
+0.64
+```
 
 ---
 ### Question 3: Predicting Strong Future Growth
 
 **What is the CAGR for the best predictor of strong future growth (after redefining the target variable)?**
+
+### **📒 [Solution here](./Q3_Homework_04.ipynb)**
 
 Your goal is to adjust how we define “strong future growth” and examine how it affects model performance.
 
@@ -112,6 +121,10 @@ Your goal is to adjust how we define “strong future growth” and examine how 
 3. Run the notebook again using this revised target. Threshold-based rules may not perform as well, so check which predictor now delivers the best financial result (CAGR)—it is likely to be  `pred5_clf_10`.
 
 **Write down the CAGR for the best predictor. Were you able to improve it compared to the original best CAGR of 1.1556? Do you see more or fewer trades per day compared to before?**
+
+```bash
+1.1212
+```
 
 ---
 ### Question 4:  [EXPLORATORY] Describe Your Ideal Trading Strategy
@@ -126,15 +139,5 @@ For example, you might say: *“Take the 3 best predictions with a threshold abo
 Think about how you would decide which predictions to use, how much to invest, how to reduce the number of trades, and how to manage risk.
 
 Write a few clear sentences describing your strategy and how you would implement it.
-
----
-## Submitting the solutions
-
-Form for submitting: https://courses.datatalks.club/sma-zoomcamp-2025/homework/hw04
-
----
-## Leaderboard
-
-Leaderboard link: https://courses.datatalks.club/sma-zoomcamp-2025/leaderboard
 
 ---

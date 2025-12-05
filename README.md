@@ -91,7 +91,7 @@ Putting everything we learned to practice
 * Week 1 and 2: working on your project
 * Week 3: reviewing your peers
 
-🔗[**Link to My Project**]()
+🔗[**Link to My Project**](https://github.com/valeqm/ML-Strategy-vs-SP500-Benchmark)
 
 
 ## 📖 ZoomCamp Course
